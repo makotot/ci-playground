@@ -1,0 +1,22 @@
+{
+  "name": "ci-playground",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/makotot/ci-playground.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makotot/ci-playground/issues"
+  },
+  "homepage": "https://github.com/makotot/ci-playground#readme",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
