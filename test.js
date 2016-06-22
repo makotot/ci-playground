@@ -1,11 +1,15 @@
 import test from 'ava'
 
 test('foo', t => {
-    t.pass();
+  t.pass()
 })
 
 test('bar', async t => {
-    const bar = Promise.resolve('bar')
+  const bar = Promise.resolve('bar')
 
-    t.is(await bar, 'bar')
+  t.is(await bar, 'bar')
+})
+
+test('foo will run', t => {
+  t.pass()
 })
