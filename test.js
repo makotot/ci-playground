@@ -13,3 +13,7 @@ test('bar', async t => {
 test('foo will run', t => {
   t.pass()
 })
+
+test('run', t => {
+  t.pass()
+})
